@@ -20,11 +20,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mongodb-developer/mongodb-typescript-example.git"
+        "url": "git+https://github.com/Javiyack/mongodb-typescript-example.git"
     },
     "dependencies": {
         "dotenv": "^10.0.0",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "mongodb": "^4.2.1"
     },
     "devDependencies": {
         "@types/express": "^4.17.13",
