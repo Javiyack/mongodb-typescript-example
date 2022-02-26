@@ -7,6 +7,7 @@ import {ObjectId} from "mongodb";
 export default class Performance {
     constructor(
         public event_node_id: string,
+        public interval_dttm: number,
         public ts: number,
         public metered_value: number,
         public baseline: number,
